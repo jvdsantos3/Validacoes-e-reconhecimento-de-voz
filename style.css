@@ -24,6 +24,11 @@ h1 {
     font-weight: 700;
 }
 
+h2 {
+    font-size: 4em;
+    font-weight: 700;
+}
+
 h3 {
     font-size: 2em;
     font-weight: 400;
@@ -42,4 +47,19 @@ h3 {
     font-size: 2em;
     padding: 20px;
     margin: 20px;
+}
+
+.btn-jogar {
+    padding: 8px 15px;
+    background: none;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.btn-jogar:hover {
+    background: var(--primary-color);
+    color: #fff;
+    cursor: pointer;
 }
